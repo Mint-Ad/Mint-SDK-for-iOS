@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B9793821AAD97420003373E /* TableViewController_iphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9793811AAD97420003373E /* TableViewController_iphone.swift */; };
+		6BCFC2861AA99806000FF81F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCFC2851AA99806000FF81F /* AppDelegate.swift */; };
+		6BCFC28B1AA99806000FF81F /* IPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCFC2891AA99806000FF81F /* IPhone.storyboard */; };
+		6BCFC28D1AA99806000FF81F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BCFC28C1AA99806000FF81F /* Images.xcassets */; };
+		6BCFC2901AA99806000FF81F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BCFC28E1AA99806000FF81F /* LaunchScreen.xib */; };
+		6BE40E9E1AAED1D000F1EFC1 /* Imobile_spot_info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE40E9D1AAED1D000F1EFC1 /* Imobile_spot_info.swift */; };
+		6BE40EB11AAEF99000F1EFC1 /* TableViewController_ipad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE40EB01AAEF99000F1EFC1 /* TableViewController_ipad.swift */; };
+		935339901B4D0AFB0085B4A9 /* FullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353398E1B4D0AFB0085B4A9 /* FullScreenViewController.swift */; };
+		935339911B4D0AFB0085B4A9 /* InlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353398F1B4D0AFB0085B4A9 /* InlineViewController.swift */; };
+		9382A2971ABFD3FC00F9AB6A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCD04A61AAD3E1A001BFD90 /* AdSupport.framework */; };
+		9382A2981ABFD40B00F9AB6A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCD04A81AAD3E24001BFD90 /* SystemConfiguration.framework */; };
+		9382A2991ABFD44A00F9AB6A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCD04AA1AAD3E2D001BFD90 /* CoreLocation.framework */; };
+		93CFD3A11BD8D51E005AF0D1 /* IPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CFD39F1BD8D51E005AF0D1 /* IPad.storyboard */; };
+		93CFD3A51BD8D74C005AF0D1 /* ImobileSdkAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CFD3A41BD8D74C005AF0D1 /* ImobileSdkAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B9793811AAD97420003373E /* TableViewController_iphone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController_iphone.swift; path = class/iphone/TableViewController_iphone.swift; sourceTree = "<group>"; };
+		6BCD04A61AAD3E1A001BFD90 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		6BCD04A81AAD3E24001BFD90 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6BCD04AA1AAD3E2D001BFD90 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6BCFC2801AA99806000FF81F /* ImobileSample-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImobileSample-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCFC2841AA99806000FF81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BCFC2851AA99806000FF81F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BCFC28A1AA99806000FF81F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/IPhone.storyboard; sourceTree = "<group>"; };
+		6BCFC28C1AA99806000FF81F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BCFC28F1AA99806000FF81F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6BCFC29A1AA99806000FF81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BCFC29B1AA99806000FF81F /* ImobileSample_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImobileSample_SwiftTests.swift; sourceTree = "<group>"; };
+		6BE40E9D1AAED1D000F1EFC1 /* Imobile_spot_info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Imobile_spot_info.swift; path = class/Imobile_spot_info.swift; sourceTree = "<group>"; };
+		6BE40EB01AAEF99000F1EFC1 /* TableViewController_ipad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController_ipad.swift; path = class/ipad/TableViewController_ipad.swift; sourceTree = "<group>"; };
+		933EE10F1ABC2B46000AC6DA /* ImobileSdkAds-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ImobileSdkAds-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		9353398E1B4D0AFB0085B4A9 /* FullScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullScreenViewController.swift; path = class/FullScreenViewController.swift; sourceTree = "<group>"; };
+		9353398F1B4D0AFB0085B4A9 /* InlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InlineViewController.swift; path = class/InlineViewController.swift; sourceTree = "<group>"; };
+		93CFD3A01BD8D51E005AF0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/IPad.storyboard; sourceTree = "<group>"; };
+		93CFD3A41BD8D74C005AF0D1 /* ImobileSdkAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImobileSdkAds.framework; path = ../../lib/ImobileSdkAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BCFC27D1AA99806000FF81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9382A2991ABFD44A00F9AB6A /* CoreLocation.framework in Frameworks */,
+				9382A2981ABFD40B00F9AB6A /* SystemConfiguration.framework in Frameworks */,
+				93CFD3A51BD8D74C005AF0D1 /* ImobileSdkAds.framework in Frameworks */,
+				9382A2971ABFD3FC00F9AB6A /* AdSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B0DDDB71AA9B20E00B17B91 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				9353398E1B4D0AFB0085B4A9 /* FullScreenViewController.swift */,
+				9353398F1B4D0AFB0085B4A9 /* InlineViewController.swift */,
+				6B0DDDB91AA9B23300B17B91 /* iphone */,
+				6B0DDDB81AA9B22200B17B91 /* ipad */,
+				6BE40E9D1AAED1D000F1EFC1 /* Imobile_spot_info.swift */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		6B0DDDB81AA9B22200B17B91 /* ipad */ = {
+			isa = PBXGroup;
+			children = (
+				6BE40EB01AAEF99000F1EFC1 /* TableViewController_ipad.swift */,
+			);
+			name = ipad;
+			sourceTree = "<group>";
+		};
+		6B0DDDB91AA9B23300B17B91 /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				6B9793811AAD97420003373E /* TableViewController_iphone.swift */,
+			);
+			name = iphone;
+			sourceTree = "<group>";
+		};
+		6BCFC2771AA99806000FF81F = {
+			isa = PBXGroup;
+			children = (
+				93CFD3A41BD8D74C005AF0D1 /* ImobileSdkAds.framework */,
+				6BCD04AA1AAD3E2D001BFD90 /* CoreLocation.framework */,
+				6BCD04A81AAD3E24001BFD90 /* SystemConfiguration.framework */,
+				6BCD04A61AAD3E1A001BFD90 /* AdSupport.framework */,
+				6BCFC2821AA99806000FF81F /* ImobileSample-Swift */,
+				6BCFC2981AA99806000FF81F /* ImobileSample-SwiftTests */,
+				6BCFC2811AA99806000FF81F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BCFC2811AA99806000FF81F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BCFC2801AA99806000FF81F /* ImobileSample-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BCFC2821AA99806000FF81F /* ImobileSample-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6B0DDDB71AA9B20E00B17B91 /* class */,
+				6BCFC2851AA99806000FF81F /* AppDelegate.swift */,
+				933EE10F1ABC2B46000AC6DA /* ImobileSdkAds-Bridging-Header.h */,
+				6BCFC2891AA99806000FF81F /* IPhone.storyboard */,
+				93CFD39F1BD8D51E005AF0D1 /* IPad.storyboard */,
+				6BCFC28C1AA99806000FF81F /* Images.xcassets */,
+				6BCFC28E1AA99806000FF81F /* LaunchScreen.xib */,
+				6BCFC2831AA99806000FF81F /* Supporting Files */,
+			);
+			path = "ImobileSample-Swift";
+			sourceTree = "<group>";
+		};
+		6BCFC2831AA99806000FF81F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BCFC2841AA99806000FF81F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BCFC2981AA99806000FF81F /* ImobileSample-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BCFC29B1AA99806000FF81F /* ImobileSample_SwiftTests.swift */,
+				6BCFC2991AA99806000FF81F /* Supporting Files */,
+			);
+			path = "ImobileSample-SwiftTests";
+			sourceTree = "<group>";
+		};
+		6BCFC2991AA99806000FF81F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BCFC29A1AA99806000FF81F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BCFC27F1AA99806000FF81F /* ImobileSample-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCFC29F1AA99806000FF81F /* Build configuration list for PBXNativeTarget "ImobileSample-Swift" */;
+			buildPhases = (
+				6BCFC27C1AA99806000FF81F /* Sources */,
+				6BCFC27D1AA99806000FF81F /* Frameworks */,
+				6BCFC27E1AA99806000FF81F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImobileSample-Swift";
+			productName = "ImobileSample-Swift";
+			productReference = 6BCFC2801AA99806000FF81F /* ImobileSample-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BCFC2781AA99806000FF81F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "i-mobile";
+				TargetAttributes = {
+					6BCFC27F1AA99806000FF81F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BCFC27B1AA99806000FF81F /* Build configuration list for PBXProject "ImobileSample-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BCFC2771AA99806000FF81F;
+			productRefGroup = 6BCFC2811AA99806000FF81F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BCFC27F1AA99806000FF81F /* ImobileSample-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BCFC27E1AA99806000FF81F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CFD3A11BD8D51E005AF0D1 /* IPad.storyboard in Resources */,
+				6BCFC28B1AA99806000FF81F /* IPhone.storyboard in Resources */,
+				6BCFC2901AA99806000FF81F /* LaunchScreen.xib in Resources */,
+				6BCFC28D1AA99806000FF81F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BCFC27C1AA99806000FF81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935339901B4D0AFB0085B4A9 /* FullScreenViewController.swift in Sources */,
+				935339911B4D0AFB0085B4A9 /* InlineViewController.swift in Sources */,
+				6BE40EB11AAEF99000F1EFC1 /* TableViewController_ipad.swift in Sources */,
+				6BCFC2861AA99806000FF81F /* AppDelegate.swift in Sources */,
+				6B9793821AAD97420003373E /* TableViewController_iphone.swift in Sources */,
+				6BE40E9E1AAED1D000F1EFC1 /* Imobile_spot_info.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BCFC2891AA99806000FF81F /* IPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCFC28A1AA99806000FF81F /* Base */,
+			);
+			name = IPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6BCFC28E1AA99806000FF81F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCFC28F1AA99806000FF81F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		93CFD39F1BD8D51E005AF0D1 /* IPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93CFD3A01BD8D51E005AF0D1 /* Base */,
+			);
+			name = IPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BCFC29D1AA99806000FF81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BCFC29E1AA99806000FF81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BCFC2A01AA99806000FF81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../lib/";
+				INFOPLIST_FILE = "ImobileSample-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.imoblie.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../../Swift/ImobileSdkAds-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BCFC2A11AA99806000FF81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../lib/";
+				INFOPLIST_FILE = "ImobileSample-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.imoblie.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../../Swift/ImobileSdkAds-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BCFC27B1AA99806000FF81F /* Build configuration list for PBXProject "ImobileSample-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCFC29D1AA99806000FF81F /* Debug */,
+				6BCFC29E1AA99806000FF81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCFC29F1AA99806000FF81F /* Build configuration list for PBXNativeTarget "ImobileSample-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCFC2A01AA99806000FF81F /* Debug */,
+				6BCFC2A11AA99806000FF81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BCFC2781AA99806000FF81F /* Project object */;
+}
